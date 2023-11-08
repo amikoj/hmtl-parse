@@ -4,7 +4,8 @@
   "description": "a simple library for parse html text.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/amikoj/hmtl-parse/issues"
   },
-  "homepage": "https://github.com/amikoj/hmtl-parse#readme"
+  "homepage": "https://github.com/amikoj/hmtl-parse#readme",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.3.0",
+    "typescript": "^5.2.2"
+  }
 }
